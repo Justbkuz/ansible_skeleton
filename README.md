@@ -22,22 +22,16 @@ For detailed usage, review the [Users Guide](https://cleprepogit01.serv.infr.it.
     # Deinitialize Host
     ansible-playbook -v --limit hostname.example.com playbooks/actions/deinitialize.yml
 
-
-
-```
 ## File structure
-The files structure is organised this way:
-```
 
+The files structure is organised this way:
+
+```
 .
 ├── README.md                             # Documentation entry point
-├── ansible.cfg -> config/ansible.cfg     # Symlink to vagrant config
-├── ansible.cfg                       # Ansible configuration
-├── ssh_config                        # SSH configuration
-├── tmp                               # Temporary files
-├── vault_password                    # Default vault file
 ├── docs                                # Advanced documentation topics
-│   └── Guides and How-Tos
+│   ├── skel-start.md
+│   └── skel-tips.md
 ├── group_vars                          # Group vars directory
 │   ├── all.yml                           # Common variables to all hosts
 │   ├── dev.yml                           # Dev env variables
@@ -54,14 +48,11 @@ The files structure is organised this way:
 │   ├── 1_target_test.yml                 # Test targets
 │   ├── 2_target_requirements.yml         # Basic configuration of targets
 │   └── 3_target_sysadmin.yml             # Advanced confivuration of targets
-├── Collections                             # Collections directory
-│   └── requirements.yml              # Collections list
+├── Collections                          # Collections directory
+│   └── requirements.yml                  # Collections requirements
 └── roles                               # Roles directory
     ├── local                             # Locale roles
     ├── profiles                          # Profile roles
     ├── requirements.yml                  # Vendor roles list
     └── vendors                           # Vendor roles
-
-```
-
 ```
