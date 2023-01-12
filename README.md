@@ -4,8 +4,6 @@ Infrastructure Playbook for GNU/Linux hosts
 
 ### Requirements
 
-To bootstrap the developer workspace, tox must be available at the system level.
-Consider using your nearest MGMT box, or install tox in the manner you presently manage your system.
 
 Once you are read to begin, please review the [Contributors Guide](https://cleprepogit01.serv.infr.it.amtrustna.com/Systems-Linux/playbook-linux-infrastructure/wiki/Contributors+Guide).
 
