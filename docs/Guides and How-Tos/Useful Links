@@ -13,9 +13,6 @@ https://issues.redhat.com/browse/AAH-510
 Console Token
 Create Token in Console.Redhat 
 https://console.redhat.com/ansible/automation-hub/token 
- 
-Provide token to Automation Hub Remote Repositories 
-https://prod-lnx-3144.acs.org/ui/repositories?page_size=10&tab=remote 
 
 General Docs AAP 2.2 Page 
 https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.2
